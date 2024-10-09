@@ -1,7 +1,7 @@
 <?php 
 
 function myNumber(){
-    static $qty = 1;
+    static $qty = 0;
     echo $qty."<br>";
     $qty+=1;
 }
